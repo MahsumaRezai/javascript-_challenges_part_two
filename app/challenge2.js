@@ -1,4 +1,5 @@
 /*
+#2
 Write two functions, isOdd() and isEven(), with a single numeric parameter named
 number. The isOdd() function returns True if number is odd and False if number is even. The
 isEven() function returns the True if number is even and False if number is odd. 
