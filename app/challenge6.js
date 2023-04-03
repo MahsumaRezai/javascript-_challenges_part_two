@@ -6,7 +6,10 @@ text character, from 32 to 126. (These are called the printable ASCII characters
 
 
 */
-function char(word) {
-    return word.Codekey()
+function printASCIITable() {
+    let name = "h";
+    let name1 = name.codePointAt();
+    console.log(name1)
+
 }
-char();
+printASCIITable()
