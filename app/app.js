@@ -1,25 +1,19 @@
 /*
-#8
-Write a getChessSquareColor() function that has parameters column and row. The
-function either returns 'black' or 'white' depending on the color at the specified column and
-row. Chess boards are 8 x 8 spaces in size, and the columns and rows in this program begin at 0 and
-end at 7 like in Figure 9-1. If the arguments for column or row are outside the 0 to 7 range, the
-function returns a blank string 
-
-answer 
+#9
+Write a findAndReplace() function that has three parameters: text is the string with text to
+be replaced, oldText is the text to be replaced, and newText is the replacement text. Keep in mind
+that this function must be case-sensitive: if you are replacing 'dog' with 'fox', then the 'DOG' in
+'MY DOG JONESY' won’t be replaced.
+answer
 */
 
-function col(c) {
-    if (c % 2 == 0 && c >= 0 && c < 8) {
-        console.log("black")
-    }
-    else if (c % 2 == 1 && c >= 0 && c < 8) {
-        console.log("white")
-    }
-    else if (c % 2 != 1 || c % 2 != 0 && c >= 0 && c < 8) {
-        console.log("is not a col")
-    }
 
-
+function text(tex) {
+    let exp = new RegExp("[a-z]");
+    if (exp.test(tex)) {
+        let tex2 = tex.toLocaleUpperCase();
+        tex2.toLocaleUpperCase();
+        console.log(tex2)
+    }
 }
-col()
+text()
