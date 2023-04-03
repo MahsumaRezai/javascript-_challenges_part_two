@@ -1,19 +1,28 @@
-/*
-#9
-Write a findAndReplace() function that has three parameters: text is the string with text to
-be replaced, oldText is the text to be replaced, and newText is the replacement text. Keep in mind
-that this function must be case-sensitive: if you are replacing 'dog' with 'fox', then the 'DOG' in
-'MY DOG JONESY' won’t be replaced.
-answer
-*/
+// 10
+// 11
+function listnum() {
+    let arr = [9, 23, 3, 5];
+    for (let i = 0; i < arr.length; i++) {
+        let arr2 = arr.reduce((a, b) => {
+            if (a < b) {
+                return a;
+            }
+            else if (a > b) {
+                return b;
+            }
+            else if (arr.includes = []) {
+                console.log("non number")
 
+            }
+        })
 
-function text(tex) {
-    let exp = new RegExp("[a-z]");
-    if (exp.test(tex)) {
-        let tex2 = tex.toLocaleUpperCase();
-        tex2.toLocaleUpperCase();
-        console.log(tex2)
+        let arr3 = arr2;
+        console.log(arr3)
     }
+
+
+
+
+
 }
-text()
+listnum()
