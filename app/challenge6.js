@@ -9,4 +9,4 @@ text character, from 32 to 126. (These are called the printable ASCII characters
 function char(word) {
     return word.Codekey()
 }
-char()
+char();
