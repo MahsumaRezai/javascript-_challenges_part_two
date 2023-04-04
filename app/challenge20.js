@@ -3,7 +3,6 @@
 Write a isLeapYear() function with an integer year parameter. If year is a leap year, the
 function returns True. Otherwise, the function returns False.
 answer
-
 */
 let y = 2000;
 function year() {
