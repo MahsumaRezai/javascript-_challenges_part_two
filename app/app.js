@@ -3,22 +3,32 @@
 // 13
 // 14
 
-// 21
-let vild = " 2000 12 30"
-function data() {
-    let exp = new RegExp("[0-9]{4}[0-2]{1,2}[0-9]{1,2}");
-    let d = new Date();
-    let getd = d.getFullYear() + "/" + (d.getMonth() + 1) + "/" + d.getDate();
-    if (exp.exec(vild)) {
-        return getd;
+// 22
 
+function rpsWinner(move, move1) {
+    if (move == "rock" && move1 == "paper") {
+        return "playertwo"
     }
-    else {
-
-        return false;
+    else if (move == "rock" && move1 == "scissors") {
+        return "playerone"
     }
-
+    else if (move == "paper" && move1 == "rock") {
+        return "playerone"
+    }
+    else if (move == "scissors" && move1 == "rock") {
+        return "playertwo"
+    }
+    else if (move == "rock" && move1 == "rock") {
+        return "tic"
+    }
+    else if (move == "paper" && move1 == "paper") {
+        return "tic"
+    }
+    else if (move == "scissors" && move1 == "scissors") {
+        return "tic"
+    }
 
 }
-data();
+rpsWinner()
+
 
