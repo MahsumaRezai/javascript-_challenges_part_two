@@ -3,19 +3,17 @@
 
 // 26 
 //32 
-// 35 
-function text() {
-    let name = "hello world";
-    for (let i = 0; i < name.length; i++) {
-        let name2 = name.toLocaleUpperCase();
-        let name3 = name2.split(" ");
-        console.log(name3);
+// 36 
 
-    }
 
+
+function reverse(s) {
+    var o = [];
+    for (var i = s.length - 1, j = 0; i >= 0; i-- , j++)
+        o[j] = s[i];
+    return o.join('');
 }
-text();
-
+reverse()
 
 
 
