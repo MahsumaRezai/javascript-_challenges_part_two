@@ -3,18 +3,14 @@
 
 // 26 
 //32 
-// 38 
-function rand() {
-    let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-    for (let i = 0; i < arr.length; i++) {
-        let arr3 = i;
-        let arr4 = Math.random(arr3);
-        console.log(arr4)
-
-
-    }
-
+// 39 
+// 40
+function lists() {
+    let arr1 = [1, 2, 3, 4, 5];
+    let arr2 = [6, 7, 8, 9, 10];
+    let arr3 = arr1.concat(arr2);
+    console.log(arr3)
 }
-rand()
+lists()
 
 
